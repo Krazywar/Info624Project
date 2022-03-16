@@ -38,16 +38,16 @@
             <div class="row">
                 <div class="col-md-6">
                 <label  for="input_slider_min"> Minimum snowfall range</label>
-                <input id="input_slider_min" type="range" value="0" min="0" max="" name="snowfall_slider_min" oninput="updateSnowValue_min(value)"/>
+                <input id="input_slider_min" type="range" step="0.1" value="0" min="0" max="" name="snowfall_slider_min" oninput="updateSnowValue_min(value)"/>
             </div>
              <div class="col-md-6">
                 <label  for="input_slider_max"> Maximum snowfall range</label>
-                <input id="input_slider_max" type="range" value="10" min="0" max="100" name="snowfall_slider_max" oninput="updateSnowValue_max(value)"/>
+                <input id="input_slider_max" type="range" step="0.1" value="10" min="0" max="50" name="snowfall_slider_max" oninput="updateSnowValue_max(value)"/>
              </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <p>Chosen Snowfall in upcoming 24 hours in mm between:<span id="slider_amount_min"></span> - <span id="slider_amount_max"></span></p>
+                    <p>Chosen Snowfall in upcoming 24 hours in cm between:<span id="slider_amount_min"></span> - <span id="slider_amount_max"></span></p>
                 </div>
             </div>
         </div>

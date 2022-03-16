@@ -10,4 +10,4 @@ requests~=2.27.1
 elasticsearch~=8.1.0
 elastic_transport
 dataclasses~=0.6
-urllib3
+urllib3==1.26.7
